@@ -38,3 +38,6 @@ nbproject/*
 .vscode
 # Sass preprocessor
 .sass-cache/
+
+app.sqlite3
+test_app.sqlite3

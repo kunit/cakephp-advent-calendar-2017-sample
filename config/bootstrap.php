@@ -206,6 +206,7 @@ Type::build('timestamp')
  * Plugin::load('Migrations'); //Loads a single plugin named Migrations
  *
  */
+Plugin::load('Migrations');
 
 /*
  * Only try to load DebugKit in development mode
@@ -214,3 +215,6 @@ Type::build('timestamp')
 if (Configure::read('debug')) {
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
+
+Configure::load('messages');
+Configure::load('hobbies');
